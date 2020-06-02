@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+//import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     width: 100%;
@@ -13,17 +14,27 @@ export const Title = styled.h1`
     color: #333;
 `;
 
-export const Button = styled.button` 
-    border: 1.5rem;
-    border-radius: 0 .25rem .25rem 0;
-    height: 3rem;
-    background: #FA6576;
-    color: white;
-
-    &:focus,
-    &:active {
-        outline: none;
-        box-shadow: none;
-    }
+export const List = styled.ul` 
+    list-style: none;
+    padding: 0;
+    font-family: sans-serif;
 `;
+
+export const ListItem = styled.li` 
+    margin: .5rem 0;
+    background: #000;
+    color #fff;
+    padding: .5rem;
+`;
+
+// export const LinkSearchBar = styled(Link)`
+//     display: block;
+//     width: 4rem;
+//     text-align: center;
+//     text-decoration: none;
+//     margin: 2rem auto;
+//     padding: .5rem 0;
+//     background-color: #000;
+//     color: #fff;
+// `;
 
