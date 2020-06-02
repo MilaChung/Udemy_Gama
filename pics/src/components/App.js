@@ -1,9 +1,10 @@
 import React from 'react';
-import SearchBar from './SearchBar/SearchBar';
+import SearchBar from './SearchBar/index';
+import Repositories from './Repositories';
 
 function App() {
   return (
-    <SearchBar />
+    <Repositories />
   );
 }
 
